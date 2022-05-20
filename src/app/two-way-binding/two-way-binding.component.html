@@ -1,0 +1,11 @@
+<div class="card">
+    <h1>Ejemplo de Two Way Binding</h1>
+    <input type="text" 
+        placeholder="Escribe nombre"
+        [(ngModel)]="actor.nombre">
+        <input type="text" 
+        placeholder="Escribe apellidos"
+        [(ngModel)]="actor.apellidos">
+    <p>Nombre {{actor.nombre}}</p>
+    <p>Apellidos {{actor.apellidos}}</p>
+</div>
